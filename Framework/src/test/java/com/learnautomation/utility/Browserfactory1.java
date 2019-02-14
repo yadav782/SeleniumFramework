@@ -19,6 +19,7 @@ public class Browserfactory1  {
 			System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+			
 		}else if(browser.equals("FireFox")){
 			
 			System.setProperty("webdriver.gecko.driver", "./Drivers/geckodriver.exe");

@@ -6,7 +6,6 @@ import org.testng.annotations.Test;
 
 import com.learnautomation.pages.BaseClass;
 import com.learnautomation.pages.LoginPage;
-import com.learnautomation.utility.ExcelDataProvider;
 
 
 public class LOGIN extends BaseClass {
@@ -17,14 +16,10 @@ public class LOGIN extends BaseClass {
 	@Parameters ()
 	public void loginToCRM() {
 		
-		
-		
 		LoginPage loginpage = PageFactory.initElements(driver, LoginPage.class);
 		
 		loginpage.loginToCRM(excel.getStringData("Login", 0, 0), excel.getStringData("Login", 0, 1));
-		
 	
-		
 		
 	}
 

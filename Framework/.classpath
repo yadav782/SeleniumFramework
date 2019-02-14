@@ -53,5 +53,7 @@
 	<classpathentry kind="lib" path="C:/Users/YADAVPRAKASH/Documents/Selenium Softwares/poi-4.0.1/poi-ooxml-schemas-4.0.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/YADAVPRAKASH/Documents/Selenium Softwares/poi-4.0.1/poi-scratchpad-4.0.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/YADAVPRAKASH/Documents/Selenium Softwares/poi-4.0.1/xmlbeans-3.0.2.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

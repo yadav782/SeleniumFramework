@@ -8,7 +8,7 @@ public class LoginPage {
 
 	@FindBy(xpath="//*[@id='ui']/div/div/form/div/div[1]/div/input") WebElement userName;
 	@FindBy(xpath="//*[@id='ui']/div/div/form/div/div[2]/div/input") WebElement password;
-	@FindBy(xpath="/html/body/div[1]/header/div/nav/div[2]/div/") WebElement loginBtn;
+	@FindBy(xpath="/html/body/div[1]/header/div/nav/div[2]/div/a") WebElement loginBtn;
 	@FindBy(xpath="//*[@id='ui']/div/div/form/div/div[3]") WebElement login;
 	WebDriver driver;
 	
